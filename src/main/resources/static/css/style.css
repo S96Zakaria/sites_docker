@@ -1,0 +1,67 @@
+html, body{
+	height: 100%;
+	width: 100%;
+}
+
+.head-index{
+	background-image: url('https://i.imgur.com/xgArtur.jpg');
+	background-size:cover;
+}
+
+.full-height {
+                height: 50vh;
+            }
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.m-b-md {
+    margin-bottom: 30px;
+    color : white;
+}
+
+.title {
+    font-size: 84px;
+}
+.links > a{
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	margin-left: 15px;	
+	
+}
+
+.zoo {
+    transition: -webkit-transform 0.25s ease;
+     z-index: -1;
+}
+
+.zoo:active {
+    -webkit-transform: scale(2);
+    z-index: 1;
+}
+
+
+p.b {
+  white-space: nowrap; 
+  width:  	300px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
